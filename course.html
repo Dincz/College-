@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website Responsive website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="Images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class=" fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Our courses </h1>
+
+    </section>
+    <!-- Course SECTIOn -->
+
+    <section class="course">
+        <h1>Courses We offer</h1>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Poast Course</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, expedita. Quo, quidem. Quo,
+                    repellendus. Sed, voluptatum!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Course</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, expedita. Quo, quidem. Quo,
+                    repellendus. Sed, voluptatum!</p>
+            </div>
+            <div class="course-col">
+                <h3>Final Course</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, expedita. Quo, quidem. Quo,
+                    repellendus. Sed, voluptatum!</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FACILITIES -->
+
+    <section class="facilities">
+        <h1>Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+        <div class="row">
+            <div class="col">
+                <img src="Images/library.png" alt="">
+                <h3>Library worldclass</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, voluptatum.</p>
+            </div>
+            <div class="col">
+                <img src="Images/cafeteria.png" alt="">
+                <h3>cafeteria worldclass</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, voluptatum.</p>
+            </div>
+            <div class="col">
+                <img src="Images/basketball.png" alt="">
+                <h3>basketball worldclass</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, voluptatum.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--  -->
+
+
+
+
+
+    <section class="Footer">
+        <h4>
+            About us
+        </h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellat itaque, ipsum ad facilis reiciendis
+            inventore <br>et minus mollitia ea velit quibusdam cum, quo modi. Accusamus rerum asperiores doloribus
+            officia.
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p> Dinesh <i class="fa-regular fa-heart"></i> All rights reserved.</p>
+
+
+    </section>
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+
+</html>
